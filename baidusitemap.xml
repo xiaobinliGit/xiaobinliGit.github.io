@@ -3,6 +3,29 @@
 
 
     
+  <url>
+    <loc>http://http://xiaobin-li.cn/2018/01/13/linux-training/</loc>
+    <lastmod>2018-01-13T12:27:07.427Z</lastmod>
+    <data>
+        <display>
+        <title>Linux Self Training</title>
+        <pubTime>2018-01-13T11:54:30.000Z</pubTime>
+        
+        <tag>Linux</tag>
+         
+         
+           
+             
+              <breadCrumb title="技术日志" url="http://http://xiaobin-li.cn/categories/%E6%8A%80%E6%9C%AF%E6%97%A5%E5%BF%97/"/>
+          
+             
+              <breadCrumb title="Linux" url="http://http://xiaobin-li.cn/categories/%E6%8A%80%E6%9C%AF%E6%97%A5%E5%BF%97/Linux/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
     
     
   <url>
@@ -144,29 +167,6 @@
 
     
   <url>
-    <loc>http://http://xiaobin-li.cn/2017/09/18/C-Query-to-be-solved/</loc>
-    <lastmod>2017-12-23T11:00:53.920Z</lastmod>
-    <data>
-        <display>
-        <title>C++ Query to be solved</title>
-        <pubTime>2017-09-18T14:03:38.000Z</pubTime>
-        
-        <tag>-C++</tag>
-         
-         
-           
-             
-              <breadCrumb title="技术日志" url="http://http://xiaobin-li.cn/categories/%E6%8A%80%E6%9C%AF%E6%97%A5%E5%BF%97/"/>
-          
-             
-              <breadCrumb title="C++" url="http://http://xiaobin-li.cn/categories/%E6%8A%80%E6%9C%AF%E6%97%A5%E5%BF%97/C/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
     <loc>http://http://xiaobin-li.cn/2017/09/14/Blog%20Restart/</loc>
     <lastmod>2017-12-23T11:00:53.920Z</lastmod>
     <data>
@@ -183,6 +183,29 @@
           
              
               <breadCrumb title="关于博客" url="http://http://xiaobin-li.cn/categories/%E6%8A%80%E6%9C%AF%E6%97%A5%E5%BF%97/%E5%85%B3%E4%BA%8E%E5%8D%9A%E5%AE%A2/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://http://xiaobin-li.cn/2017/09/18/C-Query-to-be-solved/</loc>
+    <lastmod>2017-12-23T11:00:53.920Z</lastmod>
+    <data>
+        <display>
+        <title>C++ Query to be solved</title>
+        <pubTime>2017-09-18T14:03:38.000Z</pubTime>
+        
+        <tag>-C++</tag>
+         
+         
+           
+             
+              <breadCrumb title="技术日志" url="http://http://xiaobin-li.cn/categories/%E6%8A%80%E6%9C%AF%E6%97%A5%E5%BF%97/"/>
+          
+             
+              <breadCrumb title="C++" url="http://http://xiaobin-li.cn/categories/%E6%8A%80%E6%9C%AF%E6%97%A5%E5%BF%97/C/"/>
           
         </display>
     </data>
