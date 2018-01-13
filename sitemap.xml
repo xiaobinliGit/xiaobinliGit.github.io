@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://http://xiaobin-li.cn/2017/12/06/DevOps-Way/</loc>
+    
+    <lastmod>2018-01-13T14:10:41.621Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://http://xiaobin-li.cn/2018/01/13/linux-training/</loc>
     
     <lastmod>2018-01-13T12:27:07.427Z</lastmod>
@@ -47,13 +54,6 @@
     <loc>http://http://xiaobin-li.cn/2017/11/06/monitor-dinner-philosopher/</loc>
     
     <lastmod>2017-12-23T11:00:53.940Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://http://xiaobin-li.cn/2017/12/06/DevOps-Way/</loc>
-    
-    <lastmod>2017-12-23T11:00:53.930Z</lastmod>
     
   </url>
   

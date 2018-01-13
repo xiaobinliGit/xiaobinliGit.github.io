@@ -4,6 +4,29 @@
 
     
   <url>
+    <loc>http://http://xiaobin-li.cn/2017/12/06/DevOps-Way/</loc>
+    <lastmod>2018-01-13T14:10:41.621Z</lastmod>
+    <data>
+        <display>
+        <title>DevOps-Way</title>
+        <pubTime>2017-12-06T02:56:52.000Z</pubTime>
+        
+        <tag>DevOps</tag>
+         
+         
+           
+             
+              <breadCrumb title="技术日志" url="http://http://xiaobin-li.cn/categories/%E6%8A%80%E6%9C%AF%E6%97%A5%E5%BF%97/"/>
+          
+             
+              <breadCrumb title="项目管理" url="http://http://xiaobin-li.cn/categories/%E6%8A%80%E6%9C%AF%E6%97%A5%E5%BF%97/%E9%A1%B9%E7%9B%AE%E7%AE%A1%E7%90%86/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>http://http://xiaobin-li.cn/2018/01/13/linux-training/</loc>
     <lastmod>2018-01-13T12:27:07.427Z</lastmod>
     <data>
@@ -114,29 +137,6 @@
           
              
               <breadCrumb title="Operating System" url="http://http://xiaobin-li.cn/categories/%E6%8A%80%E6%9C%AF%E6%97%A5%E5%BF%97/Operating-System/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://http://xiaobin-li.cn/2017/12/06/DevOps-Way/</loc>
-    <lastmod>2017-12-23T11:00:53.930Z</lastmod>
-    <data>
-        <display>
-        <title>DevOps-Way</title>
-        <pubTime>2017-12-06T02:56:52.000Z</pubTime>
-        
-        <tag>DevOps</tag>
-         
-         
-           
-             
-              <breadCrumb title="技术日志" url="http://http://xiaobin-li.cn/categories/%E6%8A%80%E6%9C%AF%E6%97%A5%E5%BF%97/"/>
-          
-             
-              <breadCrumb title="项目管理" url="http://http://xiaobin-li.cn/categories/%E6%8A%80%E6%9C%AF%E6%97%A5%E5%BF%97/%E9%A1%B9%E7%9B%AE%E7%AE%A1%E7%90%86/"/>
           
         </display>
     </data>
