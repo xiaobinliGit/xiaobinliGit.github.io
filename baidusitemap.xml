@@ -4,6 +4,29 @@
 
     
   <url>
+    <loc>http://http://xiaobin-li.cn/2018/03/14/agile-style/</loc>
+    <lastmod>2018-03-14T14:54:48.759Z</lastmod>
+    <data>
+        <display>
+        <title>Agile Style</title>
+        <pubTime>2018-03-14T14:37:23.000Z</pubTime>
+        
+        <tag>AGILE</tag>
+         
+         
+           
+             
+              <breadCrumb title="技术日志" url="http://http://xiaobin-li.cn/categories/%E6%8A%80%E6%9C%AF%E6%97%A5%E5%BF%97/"/>
+          
+             
+              <breadCrumb title="项目管理" url="http://http://xiaobin-li.cn/categories/%E6%8A%80%E6%9C%AF%E6%97%A5%E5%BF%97/%E9%A1%B9%E7%9B%AE%E7%AE%A1%E7%90%86/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>http://http://xiaobin-li.cn/2018/02/16/LeetCode/</loc>
     <lastmod>2018-03-14T14:46:48.502Z</lastmod>
     <data>
@@ -35,29 +58,6 @@
         <pubTime>2017-12-06T02:56:52.000Z</pubTime>
         
         <tag>DevOps</tag>
-         
-         
-           
-             
-              <breadCrumb title="技术日志" url="http://http://xiaobin-li.cn/categories/%E6%8A%80%E6%9C%AF%E6%97%A5%E5%BF%97/"/>
-          
-             
-              <breadCrumb title="项目管理" url="http://http://xiaobin-li.cn/categories/%E6%8A%80%E6%9C%AF%E6%97%A5%E5%BF%97/%E9%A1%B9%E7%9B%AE%E7%AE%A1%E7%90%86/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://http://xiaobin-li.cn/2018/03/14/agile-style/</loc>
-    <lastmod>2018-03-14T14:45:26.694Z</lastmod>
-    <data>
-        <display>
-        <title>Agile Style</title>
-        <pubTime>2018-03-14T14:37:23.000Z</pubTime>
-        
-        <tag>AGILE</tag>
          
          
            
