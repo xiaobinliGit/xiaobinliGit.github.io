@@ -174,7 +174,7 @@
           <!-- Date -->
           <span class="date-time info">On
             <span class="date">2018-02-16</span>
-            <span class="time">19:43:50</span>
+            <span class="time">22:48:44</span>
           </span>
           
           <!--  Categories  -->
@@ -378,6 +378,37 @@ private:
     }
     return len;
 }
+</code></pre>
+<h2 id="leetcode-35"><a href="#leetcode-35" class="headerlink" title="leetcode 35"></a><font color="#0000FF">leetcode 35</font></h2><pre><code class="cpp">int searchInsert(vector&lt;int&gt;&amp; nums, int target) {
+        int start = 0;
+        int end = nums.size()-1;
+        int mid = (start+end)/2;
+        if(target&gt;nums[end])
+        {
+            return end+1;
+        }
+        if(target&lt;=nums[start]) //remember the &#39;=&#39;&#39; for single element
+        {
+            return start;
+        }
+        while(start+1&lt;end)
+        {
+            mid = (start+end)/2;
+            if(nums[mid]==target)
+            {
+                return mid;
+            }
+            else if(nums[mid]&gt;target)
+            {
+                end = mid;
+            }
+            else
+            {
+                start = mid;
+            }
+        }
+        return start+1;
+    }
 </code></pre>
 <h2 id="leetcode-100"><a href="#leetcode-100" class="headerlink" title="leetcode 100"></a><font color="#0000FF">leetcode 100</font></h2><pre><code class="cpp">bool isSameTree1( TreeNode* p,  TreeNode* q)
 {    
