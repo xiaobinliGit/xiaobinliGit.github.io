@@ -4,12 +4,35 @@
 
     
   <url>
-    <loc>http://http://xiaobin-li.cn/2018/03/17/Plan-Agile/</loc>
-    <lastmod>2018-03-18T15:06:10.014Z</lastmod>
+    <loc>http://http://xiaobin-li.cn/2018/05/05/Scaled-Agile-Framework-Deployment/</loc>
+    <lastmod>2018-05-05T11:53:42.400Z</lastmod>
     <data>
         <display>
-        <title>Plan for agile project</title>
-        <pubTime>2018-03-17T12:12:26.000Z</pubTime>
+        <title>Scaled-Agile-Framework-Deployment</title>
+        <pubTime>2018-05-05T11:50:38.000Z</pubTime>
+        
+        <tag>-SAFe</tag>
+         
+         
+           
+             
+              <breadCrumb title="技术日志" url="http://http://xiaobin-li.cn/categories/%E6%8A%80%E6%9C%AF%E6%97%A5%E5%BF%97/"/>
+          
+             
+              <breadCrumb title="项目管理" url="http://http://xiaobin-li.cn/categories/%E6%8A%80%E6%9C%AF%E6%97%A5%E5%BF%97/%E9%A1%B9%E7%9B%AE%E7%AE%A1%E7%90%86/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://http://xiaobin-li.cn/2018/03/18/Schedule-Agile/</loc>
+    <lastmod>2018-03-18T15:08:05.353Z</lastmod>
+    <data>
+        <display>
+        <title>Schedule and monitor agile project</title>
+        <pubTime>2018-03-18T15:05:23.000Z</pubTime>
         
         <tag>-AGILE</tag>
          
@@ -27,12 +50,12 @@
 
     
   <url>
-    <loc>http://http://xiaobin-li.cn/2018/03/18/Schedule-Agile/</loc>
-    <lastmod>2018-03-18T15:05:46.004Z</lastmod>
+    <loc>http://http://xiaobin-li.cn/2018/03/17/Plan-Agile/</loc>
+    <lastmod>2018-03-18T15:06:10.014Z</lastmod>
     <data>
         <display>
-        <title>Schedule and monitor agile project</title>
-        <pubTime>2018-03-18T15:05:23.000Z</pubTime>
+        <title>Plan for agile project</title>
+        <pubTime>2018-03-17T12:12:26.000Z</pubTime>
         
         <tag>-AGILE</tag>
          
