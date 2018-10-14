@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html>
+  <!-- Html Head Tag-->
+  <head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="">
+  <meta name="author" content="Li Xiaobin">
+  <meta name="google-site-verification" content="kmMVDOmnjTrRV0H_HOezr9ZE2TC-nVkFHij--PHM6Sk" />
+  <meta name="baidu-site-verification" content="XztgTEW2do" />
+  <!-- Open Graph Data -->
+  <meta property="og:title" content="Programm Management Session in Nokia HangZhou TC"/>
+  <meta property="og:description" content="This Blog is for my IT life record" />
+  <meta property="og:site_name" content="Xiaobin&#39;s BLOG"/>
+  <meta property="og:type" content="article" />
+  <meta property="og:image" content="http://http://xiaobin-li.cn"/>
+  
+    <link rel="alternate" href="/atom.xml" title="Xiaobin&#39;s BLOG" type="application/atom+xml">
+  
+  
+    <link rel="icon" href="/CSBLOG/favicon.ico">
+  
+
+  <!-- Site Title -->
+  <title>Xiaobin's BLOG</title>
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="/css/bootstrap.min.css">
+  <!-- Custom CSS -->
+  
+  <link rel="stylesheet" href="/css/style.light.css">
+
+  <!-- LeanCloud Analytics -->
+  <script src="//cdn1.lncld.net/static/js/3.2.1/av-min.js"></script>
+<script src="https://code.jquery.com/jquery-3.2.0.min.js"></script>
+<script>
+    var APP_ID = 'vogYClp5geMH9OB2sBGB9TF6-gzGzoHsz';
+    var APP_KEY = 'KrAXmRLkU5owmcStPlWi30UT';
+    AV.init({
+        appId: APP_ID,
+        appKey: APP_KEY
+    });
+    // 显示次数
+    function showTime(Counter) {
+        var query = new AV.Query("Counter");
+        if($(".leancloud_visitors").length > 0){
+            var url = $(".leancloud_visitors").attr('id').trim();
+            // where field
+            query.equalTo("words", url);
+
+            // count 
+            query.count().then(function (number) {
+                // There are number instances of MyClass where words equals url.
+                $(document.getElementById(url)).text(number?  number : '--');
+            }, function (error) {
+                // error is an instance of AVError.
+            });
+        }
+    }
+   // 追加pv
+    function addCount(Counter) {
+        var url = $(".leancloud_visitors").length > 0 ? $(".leancloud_visitors").attr('id').trim() : 'https://xiaobinligit.github.io/CSBLOG/';
+        console.log('addCount url:'+url);
+        var Counter = AV.Object.extend("Counter");
+        var query = new Counter;
+        query.save({
+            words: url
+        }).then(function (object) {
+        })
+    }
+    $(function () {
+        var Counter = AV.Object.extend("Counter");
+        addCount(Counter);
+        showTime(Counter);
+    });
+</script>
+
+  <!-- Google Analytics -->
+  
+
+
+  <!-- Baidu Push -->
+  <script>
+  (function(){
+      var bp = document.createElement('script');
+      var curProtocol = window.location.protocol.split(':')[0];
+      if (curProtocol === 'https'){
+     bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
+    }
+    else{
+    bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+    }
+      var s = document.getElementsByTagName("script")[0];
+      s.parentNode.insertBefore(bp, s);
+  })();
+  </script>
+
+</head>
+
+ 
+  <body>
+    <!-- Page Header -->
+
+
+<header class="site-header header-background" style="background-image: url(/images/management.JPG)">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+        <div class="page-title with-background-image">
+          <p class="title">Programm Management Session in Nokia HangZhou TC</p>
+          <p class="subtitle"></p>
+        </div>
+        <div class="site-menu with-background-image">
+          <ul>
+            
+              <li>
+                <a href="/">
+                  
+                  Home
+                  
+                </a>
+              </li>
+            
+              <li>
+                <a href="/archives">
+                  
+                  Archives
+                  
+                </a>
+              </li>
+            
+              <li>
+                <a href="https://github.com/xiaobinliGit/">
+                  
+                  Github
+                  
+                </a>
+              </li>
+            
+              <li>
+                <a href="mailto:xiaobin_li@163.com">
+                  
+                  Email
+                  
+                </a>
+              </li>
+            
+              <li>
+                <a href="https://xiaobinligit.github.io/aboutme">
+                  
+                  About
+                  
+                </a>
+              </li>
+            
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+
+<article>
+  <div class="container typo">
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+        <div class="post-info text-muted">
+          
+            <!-- Author -->
+            <span class="author info">By Li Xiaobin</span>
+          
+          <!-- Date -->
+          <span class="date-time info">On
+            <span class="date">2017-11-28</span>
+            <span class="time">20:27:03</span>
+          </span>
+          
+          <!--  Categories  -->
+            <span class="categories info">Under 
+
+<a href="/categories/技术日志/">技术日志</a> / <a href="/categories/技术日志/项目管理/">项目管理</a>
+</span>
+          
+        </div>
+        <!-- Tags -->
+        
+          <div class="post-tags text-muted">
+            Tags: 
+
+<a class="tag" href="/tags/Project-Management/">#-Project Management</a>
+
+
+            <!--  leancloud  -->
+            Hits:
+                <span id="/2017/11/28/Nokia/" class="leancloud_visitors" data-flag-title="Programm Management Session in Nokia HangZhou TC">
+            
+          </div>
+        
+
+        <!-- Post Main Content -->
+        <div class="post-content">
+          <h3 id="摘要-PM-Training-in-Nokia"><a href="#摘要-PM-Training-in-Nokia" class="headerlink" title="摘要: PM Training in Nokia"></a>摘要: PM Training in Nokia</h3><a id="more"></a>
+<h1 id="背景"><a href="#背景" class="headerlink" title="背景"></a>背景</h1><p>本月21日至23日，有幸参与了公司项目集管理的三天培训，培训主讲由两位Nokia资深的项目集经理S.Rajeshkumar 与 Kukke.Vidyashankara主持，之前两位项目管理专家在公司的其他国家分部成功deliver了几次培训，反响非常好。于是此次由Hangzhou 研发中心 PME组织牵头，力邀两位管理大牛到Hangzhou TC进行现场授课。从整个三天的培训过程中，学到了很多管理流程与意识，对软件研发管理中经常缺乏的“大视野”有了深一步的补充，同时深感两位老师工作上的一百二十分敬业与态度上的极度认真。整个培训过程没有感受到一丝枯燥，两位老师将扎实的理论结合多年的实践经验一一呈现给大家，而且直到培训快要结束我们才了解到两位在这一系列的培训中，每次内容都是全新定制，而且身后有自己的团队专门调研讨论，目的就是把最新最有效的经验与方法传授给学员，其实两位专家在我司的职务级别非常高了，手上的事物也非常重要且繁杂，但是却在三天中全身心的投入授课中，积极主动的与下面的学员互动，谦逊，精益，有问必答。</p>
+<h1 id="形式"><a href="#形式" class="headerlink" title="形式"></a>形式</h1><p>本次培训形式非常能调动学员的积极性，我们分为了4个组（Einstein，Jobs，Newton，Curie ），每个组大概5至6人组成，有相应的leader，组与组之间有评分竞争（考勤，课件讨论评比，课程互动答题），培训最后的评分最高组获得了老师提供的精美礼物。整个培训穿插了游戏，学员老师互动，组员讨论，组组pk，小组演讲等形式，让我们不知不觉收到了很多干货，非常值得纪念。</p>
+<h1 id="感悟"><a href="#感悟" class="headerlink" title="感悟"></a>感悟</h1><p>培训内容因为牵涉到公司内部比较细致的组织运作方式，就不方便展开了。但是在整个会议中有些自己的感悟与要领，记录如下，方便今后反复体会。</p>
+<h3 id="Day-One"><a href="#Day-One" class="headerlink" title="Day One"></a>Day One</h3><ol>
+<li>7-up Game —&gt; Spit into 4 groups</li>
+<li>Portfolio –&gt; &lt; 1). Money:bind future 2). Market: stop unnecessary cost on time&gt;</li>
+<li>Product manager -&gt; Tell you what to do,he is the sponsor for a programm</li>
+<li>Programm manager -&gt; Tell you how to do</li>
+<li>Portfolio lifecycle -&gt; M0; M1; M2(decide to do or not to do this portfolio); MT(); M6; M7</li>
+<li>Product lifecycle -C0—&gt;C10</li>
+<li>1) Main Package(Charging) 2) update package(Not charging &lt;30% Opex)  3) Service package(&lt;10% Opex)</li>
+</ol>
+<h3 id="Day-Two"><a href="#Day-Two" class="headerlink" title="Day Two"></a>Day Two</h3><ol>
+<li>Risk management is just like breathing </li>
+<li>Programm management need “Open eyes wider even in darkness”</li>
+<li>Hardware product’s lifecycel is the longest(6 times than software product)</li>
+<li>M/C–&gt; Decision point  P–&gt;Milestone</li>
+<li>Recovery process is before P7, but it’s a very heavy process and need think carefully.</li>
+</ol>
+<h3 id="Day-Three"><a href="#Day-Three" class="headerlink" title="Day Three"></a>Day Three</h3><ol>
+<li>For project scope and cost conflict, cost is first need to consider, because we could make money in future.</li>
+<li>If scope drop, investment increase, product still not come out, the decision programm have to made is delay until good quality of a product met</li>
+<li>Decision maker need to know the corresponding prefer options, because provider is the one who will take it.</li>
+<li>Communication-&gt; Get the right person to do right things on right time</li>
+<li>Act as a big tiger during milestone<p7>. The most difficult milestone.</p7></li>
+</ol>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</article>
+
+
+
+    <!-- Contact -->
+<contact>
+  <div class="container">
+	<div class="row">
+      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1" style="text-align:center;">
+		<p>
+		<style> 
+		.contact a{display:inline-block;width:40px;height:40px;border:0px solid #000} 
+		</style>
+		<div class="contact"> 
+          <a href="/CSBLOG/images/weichat.jpg"><span class="icon icon--WeiChat"><svg viewBox="0 0 1196 1004" width="36px" height="36px"><path fill="#828282" d="M283.1608 324.514639C249.4776 324.514639 222.1784 298.282168 222.1784 265.996051 222.1784 233.679816 249.4776 207.537698 283.1608 207.537698 316.844 207.537698 344.204 233.679816 344.204 265.996051 344.204 298.282168 316.844 324.514639 283.1608 324.514639M585.3976 207.537698C619.0808 207.537698 646.3496 233.679816 646.3496 265.996051 646.3496 298.282168 619.0808 324.514639 585.3976 324.514639 551.684 324.514639 524.4456 298.282168 524.4456 265.996051 524.4456 233.679816 551.684 207.537698 585.3976 207.537698M845.2264 334.513698C851.3672 334.513698 857.4472 334.573933 863.4968 334.905228 831.516 162.240756 651.5176 30.114639 434.2792 30.114639 194.4232 30.114639 0.0152 191.213933 0.0152 389.930168 0.0152 506.455345 66.8344 610.029933 170.468 675.776755 171.8056 676.620051 174.4504 678.276518 174.4504 678.276518L132.4984 808.47511 289.484 729.265696C289.484 729.265696 294.4088 730.65111 296.8712 731.373933 340.0088 743.270406 386.2776 749.715578 434.2792 749.715578 444.068 749.715578 453.796 749.324051 463.4632 748.84217 454.556 721.465229 449.6616 692.702874 449.6616 663.006874 449.6616 481.548051 626.8328 334.513698 845.2264 334.513698" p-id="1038" fill="#828282"></path><path d="M669.30464 560.396077C669.30464 533.169724 692.40864 511.033254 720.83264 511.033254 749.31744 511.033254 772.39104 533.169724 772.39104 560.396077 772.39104 587.7429 749.31744 609.909489 720.83264 609.909489 692.40864 609.909489 669.30464 587.7429 669.30464 560.396077M924.63424 560.396077C924.63424 533.169724 947.67744 511.033254 976.13184 511.033254 1004.61664 511.033254 1027.65984 533.169724 1027.65984 560.396077 1027.65984 587.7429 1004.61664 609.909489 976.13184 609.909489 947.67744 609.909489 924.63424 587.7429 924.63424 560.396077M481.58464 665.115136C481.58464 833.021018 645.89664 969.122666 848.51264 969.122666 889.06624 969.122666 928.16064 963.641254 964.57984 953.551842 966.67744 953.009724 970.84224 951.7749 970.84224 951.7749L1103.41664 1018.75655 1067.97024 908.706666C1067.97024 908.706666 1070.25024 907.321254 1071.34464 906.628548 1158.86624 851.091606 1215.34944 763.599842 1215.34944 665.115136 1215.34944 497.269489 1051.09824 361.167842 848.51264 361.167842 645.89664 361.167842 481.58464 497.269489 481.58464 665.115136" p-id="1039" fill="#828282" /></svg>
+          </span></a>
+          &nbsp;
+          <a href="https://github.com/xiaobinliGit/" style="color: #FF0000"><span class="icon icon--github"><svg viewBox="0 0 16 16" width="36px" height="36px"><path fill="#828282" d="M7.999,0.431c-4.285,0-7.76,3.474-7.76,7.761 c0,3.428,2.223,6.337,5.307,7.363c0.388,0.071,0.53-0.168,0.53-0.374c0-0.184-0.007-0.672-0.01-1.32 c-2.159,0.469-2.614-1.04-2.614-1.04c-0.353-0.896-0.862-1.135-0.862-1.135c-0.705-0.481,0.053-0.472,0.053-0.472 c0.779,0.055,1.189,0.8,1.189,0.8c0.692,1.186,1.816,0.843,2.258,0.645c0.071-0.502,0.271-0.843,0.493-1.037 C4.86,11.425,3.049,10.76,3.049,7.786c0-0.847,0.302-1.54,0.799-2.082C3.768,5.507,3.501,4.718,3.924,3.65 c0,0,0.652-0.209,2.134,0.796C6.677,4.273,7.34,4.187,8,4.184c0.659,0.003,1.323,0.089,1.943,0.261 c1.482-1.004,2.132-0.796,2.132-0.796c0.423,1.068,0.157,1.857,0.077,2.054c0.497,0.542,0.798,1.235,0.798,2.082 c0,2.981-1.814,3.637-3.543,3.829c0.279,0.24,0.527,0.713,0.527,1.437c0,1.037-0.01,1.874-0.01,2.129 c0,0.208,0.14,0.449,0.534,0.373c3.081-1.028,5.302-3.935,5.302-7.362C15.76,3.906,12.285,0.431,7.999,0.431z" /></svg>
+          </span></a>
+          &nbsp;
+          <a href="https://www.linkedin.com/in/xiaobin-li-52913438/"><span class="icon--linkedin"><svg viewBox="0 0 17 17" width="34px" height="34px"><path fill="#828282" d="M16.28,0H1.854C0.831,0,0,0.83,0,1.855v14.426c0,1.024,0.83,1.854,1.854,1.854H16.28c1.024,0,1.854-0.827,1.854-1.854V1.855C18.136,0.83,17.306,0,16.28,0z M3.897,2.104c1.003,0,1.815,0.744,1.815,1.66c0,0.914-0.812,1.658-1.815,1.658S2.082,4.678,2.082,3.764C2.08,2.848,2.895,2.104,3.897,2.104z M5.894,16.033H1.9V6.695h3.994V16.033z M16.036,15.987h-3.033v-4.979c0-0.989-0.662-1.856-1.722-1.856c-1.061,0-1.448,0.808-1.448,1.565c0,1.021,0,5.271,0,5.271H6.799V6.74h3.034v1.369c0.439-0.619,1.555-1.398,2.742-1.398c1.479,0,1.783,0.287,2.393,0.895c1.157,1.158,1.049,2.776,1.066,3.269h0.003L16.036,15.987z" /></svg>
+          </span></a>
+    	</p>
+    </div>
+  </div>
+ </div>
+</div>  
+</contact>    
+
+    <script async src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+
+<!-- Footer -->
+<footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+        <p class="copyright text-muted">
+          Copyright By <a target="_blank" href="https://www.linkedin.com/in/xiaobin-li-52913438/">Li Xiaobin.</a> Contact <a target="_blank" href="mailto:xiaobin_li@163.com"> Mail.</a></p>
+        <p class="copyright text-muted">
+          Theme by Levblanc<a target="_blank" >.</a>
+        <p class="copyright text-muted">
+          Powered By <a target="_blank" href="https://hexo.io/">Hexo.</a>
+        </p>
+        <p class="view counter text-muted">
+          Total <span id="busuanzi_value_site_pv"></span> Views /<span id="busuanzi_value_page_pv"></span> Hits /<span id="busuanzi_value_site_uv"></span> Viewers
+        </p>
+        </li>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+    <!-- After Footer Scripts -->
+<script src="/js/highlight.pack.js"></script>
+<script>
+  document.addEventListener("DOMContentLoaded", function(event) {
+    var codeBlocks = Array.prototype.slice.call(document.getElementsByTagName('pre'))
+    codeBlocks.forEach(function(block, index) {
+      hljs.highlightBlock(block);
+    });
+  });
+</script>
+
+
+
+  	
+  </body>
+</html>
+
