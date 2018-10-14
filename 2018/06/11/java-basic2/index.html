@@ -10,7 +10,7 @@
   <meta name="google-site-verification" content="kmMVDOmnjTrRV0H_HOezr9ZE2TC-nVkFHij--PHM6Sk" />
   <meta name="baidu-site-verification" content="XztgTEW2do" />
   <!-- Open Graph Data -->
-  <meta property="og:title" content="Schedule and monitor agile project"/>
+  <meta property="og:title" content="Java Part2--Interfaces, Lambda Expressions, Collections, and Generics"/>
   <meta property="og:description" content="This Blog is for my IT life record" />
   <meta property="og:site_name" content="Xiaobin&#39;s BLOG"/>
   <meta property="og:type" content="article" />
@@ -103,12 +103,12 @@
     <!-- Page Header -->
 
 
-<header class="site-header header-background" style="background-image: url(/images/SAFe/safe_essential.png)">
+<header class="site-header header-background" style="background-image: url(/img/timg.jpg)">
   <div class="container">
     <div class="row">
       <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
         <div class="page-title with-background-image">
-          <p class="title">Schedule and monitor agile project</p>
+          <p class="title">Java Part2--Interfaces, Lambda Expressions, Collections, and Generics</p>
           <p class="subtitle"></p>
         </div>
         <div class="site-menu with-background-image">
@@ -173,14 +173,14 @@
           
           <!-- Date -->
           <span class="date-time info">On
-            <span class="date">2018-03-18</span>
-            <span class="time">19:56:40</span>
+            <span class="date">2018-06-11</span>
+            <span class="time">19:53:32</span>
           </span>
           
           <!--  Categories  -->
             <span class="categories info">Under 
 
-<a href="/categories/技术日志/">技术日志</a> / <a href="/categories/技术日志/项目管理/">项目管理</a>
+<a href="/categories/技术日志/">技术日志</a> / <a href="/categories/技术日志/语言/">语言</a>
 </span>
           
         </div>
@@ -189,75 +189,131 @@
           <div class="post-tags text-muted">
             Tags: 
 
-<a class="tag" href="/tags/AGILE/">#-AGILE</a>
+<a class="tag" href="/tags/Java/">#-Java</a>
 
 
             <!--  leancloud  -->
             Hits:
-                <span id="/2018/03/18/Schedule-Agile/" class="leancloud_visitors" data-flag-title="Schedule and monitor agile project">
+                <span id="/2018/06/11/java-basic2/" class="leancloud_visitors" data-flag-title="Java Part2--Interfaces, Lambda Expressions, Collections, and Generics">
             
           </div>
         
 
         <!-- Post Main Content -->
         <div class="post-content">
-          <h3 id="摘要-PMI-ACP"><a href="#摘要-PMI-ACP" class="headerlink" title="摘要: PMI-ACP"></a>摘要: PMI-ACP</h3><a id="more"></a>
-<h2 id="Schedule-buffer-types"><a href="#Schedule-buffer-types" class="headerlink" title="Schedule buffer types"></a><font color="#0000FF">Schedule buffer types</font></h2><ol>
-<li>Feature buffer</li>
-<li>Project buffer</li>
-<li>Feeding buffer(hand over)</li>
-<li>Resources buffer</li>
+          <h3 id="摘要-Java-Study"><a href="#摘要-Java-Study" class="headerlink" title="摘要: Java Study"></a>摘要: Java Study</h3><a id="more"></a>
+<h2 id="JAVA-Basic"><a href="#JAVA-Basic" class="headerlink" title="JAVA Basic"></a>JAVA Basic</h2><h3 id="Java-Interfaces-Lambda-Expressions-Collections-and-Generics"><a href="#Java-Interfaces-Lambda-Expressions-Collections-and-Generics" class="headerlink" title="Java : Interfaces, Lambda Expressions, Collections, and Generics"></a>Java : Interfaces, Lambda Expressions, Collections, and Generics</h3><ol>
+<li>Interfaces are similar with abstract types but only contain public abstract methods<ol>
+<li>All the methods in the interface are going to be public</li>
+<li>Can’t have any implementation</li>
+<li>Any class thast implements an interface can be referenced using that interface</li>
 </ol>
-<h3 id="3-famous-theory"><a href="#3-famous-theory" class="headerlink" title="3 famous theory:"></a>3 famous theory:</h3><p>    Parkinson’s law(too sufficient work cause unnecessary more work );<br>    Murphy’s law(whatever can happen, then it will happen);<br>    Peter’s law(someone could reach the position until he can’t go on higher)</p>
-<h3 id="Two-guideline-to-buffer-estimation"><a href="#Two-guideline-to-buffer-estimation" class="headerlink" title="Two guideline to buffer estimation"></a>Two guideline to buffer estimation</h3><ol>
-<li>Plan project buffer more than 10 user stories</li>
-<li>Ensure the project buffer at least represent 20% of total project duration </li>
+</li>
+<li>Java 8 has added default/static methods as a new feature, it fully implement methods within an interface</li>
+<li>public class A(child) extends B(parent) implements C(interface), inheritence is the 1st priority</li>
+<li>Anonymous inner classes is a class in place instead of in a peparate file.<br>Some practice is strongly need</li>
+<li>Generics<ol>
+<li>Provide flexible type safty to your code</li>
+<li>Move many common errors from runtime to compile time</li>
+<li>Provide cleaner, easier-to-write code</li>
+<li>Reduce the need for casting with collections</li>
+<li>Are used heavily in the JAVA collections API</li>
 </ol>
-<h2 id="Monitor-agile-project"><a href="#Monitor-agile-project" class="headerlink" title="Monitor agile project"></a><font color="#0000FF">Monitor agile project</font></h2><p>2 ways: </p>
-<ol>
-<li>Daily standup<br>a)    What you have done since last standup<br>b)    What will you do in the coming day<br>c)    Any risk</li>
-<li>Backlog grooming<br>a)    Prior to development<br>b)    10% effort during sprint.<br>c)    Keep simple as much possible</li>
+</li>
+<li>T-&gt;type; E-&gt;element; V-&gt;value; K-&gt;key; S&amp;U repesent the 2nd or 3rd types</li>
+<li>Type inference<ol>
+<li>Syntax:<ol>
+<li>There is no need to repeat types on the right side of the statement.</li>
+<li>Angle brackets indicate that tpe parameters are mirrored.</li>
 </ol>
-<h2 id="Tracking-process"><a href="#Tracking-process" class="headerlink" title="Tracking process"></a><font color="#0000FF">Tracking process</font></h2><p>Tools for release tracking:</p>
-<ol>
-<li>Release for burn down/up chart</li>
-<li>Parking lot chart(name of theme, number of user stories, total story points, percent done)</li>
-<li>Defect report</li>
+</li>
+<li>Simplifieds generic declarations</li>
+<li>Saves typing</li>
+<li>Sample: CacheAny<string> myString = new CacheAny&lt;&gt;()</string></li>
 </ol>
-<h3 id="Agile-EVM"><a href="#Agile-EVM" class="headerlink" title="Agile EVM"></a>Agile EVM</h3><ol>
-<li>Project cost</li>
-<li>Items in backlog</li>
-<li>Release Plan</li>
-<li>Velocity of team</li>
+</li>
+<li>Boxing and unboxing:<h4 id="Sample"><a href="#Sample" class="headerlink" title="Sample:"></a>Sample:</h4><pre><code> Integer i1 = 10;
+ Integer i2 = 10;
+Integer i3 = 128;
+Integer i4 = 128;
+System.out.println(i1==i2); //True
+System.out.println(i3==i4); //False
+</code></pre></li>
+<li>TreeSet(sorted unduplicated elements), Hashtable(synchronized, non-null), HashMap(null allowed, non-sync)</li>
+<li>Dequeue is a collection which can be used as a stack or a queue.</li>
+<li>Java Streams is a sequence of elements on which various methods can be chained<ol>
+<li>Immutable</li>
+<li>Once elements are consumed, they are no longer available from teh stream</li>
+<li>A chain of operations can occur only once on a particular stream</li>
+<li>Can be serial or parallel</li>
+<li>Sample:<br>tList.steram()<br> .filter(t-&gt;t,getState().equals(“CA”))<br> .forEach(SalesTxn::printSummary);</li>
 </ol>
-<h3 id="Leading-KPI"><a href="#Leading-KPI" class="headerlink" title="Leading KPI"></a>Leading KPI</h3><ol>
-<li>Product owner’s time</li>
-<li>Depth of ready for Dev in the backlog item</li>
+</li>
+<li>Method References:<ol>
+<li>Reference to a static method</li>
+<li>Reference to an instance method</li>
+<li>Reference to an instance method of an arbitrary object of a particular type</li>
+<li>Reference to a constructor</li>
 </ol>
-<h3 id="Lagging-KPI"><a href="#Lagging-KPI" class="headerlink" title="Lagging KPI"></a>Lagging KPI</h3><ol>
-<li>Estimated effort/Actual effort</li>
-<li>Number of defects/iteration</li>
-<li>Actual velocity</li>
+</li>
+<li>Builder pattern: static inner Builder–&gt; define all the memeber you want  —&gt; 通过各个方法把我们要赋的值封装到 Builder的对象中，返回 this，这样就可以使用链式的结构 —&gt; 最后定义一个 build() 方法，创建目标对象，并且传入已经封装了各个参数的 Builder 对象。 —&gt; 目标对象定义一个参数为Builder对象的构造函数 —&gt; 赋值 完成创建目标对象<h5 id="Sample-1"><a href="#Sample-1" class="headerlink" title="Sample:"></a>Sample:</h5></li>
 </ol>
-<h2 id="Risk-management"><a href="#Risk-management" class="headerlink" title="Risk management"></a><font color="#0000FF">Risk management</font></h2><h3 id="Risk-Types"><a href="#Risk-Types" class="headerlink" title="Risk Types"></a>Risk Types</h3><ol>
-<li>Productivity variation</li>
-<li>Scope creep</li>
-<li>Specification breakdown</li>
-<li>Personal loss</li>
-<li>Poor estimation</li>
-</ol>
-<h3 id="Risk-Categories"><a href="#Risk-Categories" class="headerlink" title="Risk Categories"></a>Risk Categories</h3><ol>
-<li>Business </li>
-<li>Technical</li>
-<li>Logistics</li>
-<li>Political</li>
-</ol>
-<h3 id="Mitigate-risk"><a href="#Mitigate-risk" class="headerlink" title="Mitigate risk"></a>Mitigate risk</h3><ol>
-<li>Pre-Mortem activities</li>
-<li>Variance(actual VS expect variance)</li>
-<li>Introspective</li>
-<li>Value stream mapping(Lean process)</li>
-</ol>
+<pre><code class="java">
+package javaPractice;
+/**
+ * @author xiaobili
+ *
+ */
+public class buildPatternPeople{
+    private String givenName;
+    private String surName;
+    public int age;
+    private String address;
+
+    //must static class for directly calling
+    public static class Builder
+    {
+        //must initialized
+        private String givenName;
+        private String surName;
+
+        //optional initialized
+        public int age;
+        private String address;
+
+        public Builder(String param1, String param2)
+        {
+            givenName = param1;
+            surName = param2;
+        }
+
+        public Builder age(int Param)
+        {
+            this.age = Param;
+            return this;
+        }
+
+        public Builder address(String Param)
+        {
+            this.address = Param;
+            return this;
+        }
+        //return the build pattern
+        public  buildPatternPeople build()
+        {
+            return new buildPatternPeople(this);
+        }
+    }
+    //main constructor initialized by builder
+    private buildPatternPeople(Builder builder)
+    {
+        givenName = builder.givenName;
+        surName = builder.surName;
+        age = builder.age;
+        address = builder.address;
+    }
+}
+</code></pre>
 
         </div>
       </div>
@@ -292,7 +348,7 @@
 </div>  
 </contact>    
 
-    <script async src="https://dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+    <script async src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
 
 <!-- Footer -->
 <footer>

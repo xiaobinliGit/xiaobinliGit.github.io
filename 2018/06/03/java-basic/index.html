@@ -10,10 +10,10 @@
   <meta name="google-site-verification" content="kmMVDOmnjTrRV0H_HOezr9ZE2TC-nVkFHij--PHM6Sk" />
   <meta name="baidu-site-verification" content="XztgTEW2do" />
   <!-- Open Graph Data -->
-  <meta property="og:title" content="Xiaobin&#39;s BLOG"/>
+  <meta property="og:title" content="Java Part1--Java technology, syntax and class review"/>
   <meta property="og:description" content="This Blog is for my IT life record" />
   <meta property="og:site_name" content="Xiaobin&#39;s BLOG"/>
-  <meta property="og:type" content="website" />
+  <meta property="og:type" content="article" />
   <meta property="og:image" content="http://http://xiaobin-li.cn"/>
   
     <link rel="alternate" href="/atom.xml" title="Xiaobin&#39;s BLOG" type="application/atom+xml">
@@ -108,7 +108,7 @@
     <div class="row">
       <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
         <div class="page-title with-background-image">
-          <p class="title">无标题文章</p>
+          <p class="title">Java Part1--Java technology, syntax and class review</p>
           <p class="subtitle"></p>
         </div>
         <div class="site-menu with-background-image">
@@ -173,17 +173,70 @@
           
           <!-- Date -->
           <span class="date-time info">On
-            <span class="date">2017-12-23</span>
+            <span class="date">2018-06-03</span>
             <span class="time">19:53:32</span>
           </span>
+          
+          <!--  Categories  -->
+            <span class="categories info">Under 
+
+<a href="/categories/技术日志/">技术日志</a> / <a href="/categories/技术日志/语言/">语言</a>
+</span>
           
         </div>
         <!-- Tags -->
         
+          <div class="post-tags text-muted">
+            Tags: 
+
+<a class="tag" href="/tags/Java/">#-Java</a>
+
+
+            <!--  leancloud  -->
+            Hits:
+                <span id="/2018/06/03/java-basic/" class="leancloud_visitors" data-flag-title="Java Part1--Java technology, syntax and class review">
+            
+          </div>
+        
 
         <!-- Post Main Content -->
         <div class="post-content">
-          google-site-verification: google7c47f3bcaf3c3acb.html
+          <h3 id="摘要-Java-Study"><a href="#摘要-Java-Study" class="headerlink" title="摘要: Java Study"></a>摘要: Java Study</h3><a id="more"></a>
+<p>随着公司的在线课程，回顾下JAVA的一些基本常识，需要尽快把这个缺口补一下。里面还有些例子待补充</p>
+<h2 id="JAVA-BASIC–1"><a href="#JAVA-BASIC–1" class="headerlink" title="JAVA BASIC–1"></a>JAVA BASIC–1</h2><h3 id="Java-technology-syntax-and-class-review"><a href="#Java-technology-syntax-and-class-review" class="headerlink" title="Java technology, syntax and class review"></a>Java technology, syntax and class review</h3><ol>
+<li>Number Literal: Any number of underscore character(_) can appear between digitals in numberic field</li>
+<li>Case sensitive</li>
+<li>String dontDothis = new String(“bad practice”) // this may create many instance which is needless in one loop</li>
+<li>Good practice to use full package and class name</li>
+<li>‘Super’ key word is used to call a parent’s constructor</li>
+<li>JAVA only support single inheritence, a class only extend one other class</li>
+<li>class scope.jpg</li>
+<li>Overloading: some practice need: 1)overload child class without virtual both in java and C++; 2)change the access property from private to public or from public to private</li>
+<li>‘Instance of’ used to identify the class type of instance during run time</li>
+<li>all class are subclass to ‘Object’(java.lang.Object)</li>
+<li>Three function need consider when override: Tostring, hashCode, equal</li>
+<li>Static members can not access non-static members within the same class<test></test></li>
+<li>Static varialbles can be accessed even if class they are declared in has not been instantiated<test></test></li>
+<li>Avoid using an object reference to access a static variable</li>
+<li>static initializer block is a code block prefixed by the static keyword <exmaple> </exmaple></li>
+<li>Take care when using static import or should use it less</li>
+<li>When a child class inherits an abstract method, it’s inheriting a method signature, but there’s no implementation or code behind it </li>
+<li>An abstract class may have any nuber of abstract and nonabstract methods.</li>
+<li>When inhteriting from an abstract class, you must do the following(both):<br>1) Declare the child class as abstract<br>2) Override all abstract methods inhterited from the parent class. Failure to do so will result in a compile-time error.</li>
+<li>Final method/class/variable, prevent multi-thread access and thread safe</li>
+<li>Final references must always reference the same object but the contents of that boject may be modified</li>
+<li>Nested class is a class declared within the body of another calss.Nested classes:<br>Multiple categories:<pre><code>Inner classes
+    Member classes
+    Local classes
+    Anonymous classes
+Static nested classes
+</code></pre></li>
+<li>Nest class are commonly used in applications with GUI elements</li>
+<li>Nest class can limit utilization of a “helper class” to the enclosing top-level class</li>
+<li>Enum’s constructor can’t be public or protected</li>
+<li>Java final key word also could be used for parameter</li>
+</ol>
+
         </div>
       </div>
     </div>
